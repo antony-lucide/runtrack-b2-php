@@ -1,5 +1,5 @@
 <?php 
-    function countstring( string $needle, string $haystack): int{
+    function my_str_search( string $needle, string $haystack): int{
         $compteur = 0;
         for ($i = 0; ;$i++){
             if(isset($haystack{$i}) == false){
